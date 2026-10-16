@@ -1,0 +1,164 @@
+0 episodes already done, 120 to run -> results/actions_arch_sonnet/episodes.jsonl
+[1/120] sharded-BFCL/parallel_107 single              s0 ok     | total $0.01 | 13s
+[2/120] sharded-BFCL/parallel_56 single              s0 wrong  | total $0.02 | 14s
+[3/120] sharded-BFCL/parallel_56 single_clarify      s0 wrong  | total $0.03 | 16s
+[4/120] sharded-BFCL/parallel_107 single_clarify      s0 ok     | total $0.05 | 23s
+[5/120] sharded-BFCL/parallel_56 two_agent           s0 ok     | total $0.10 | 27s
+[6/120] sharded-BFCL/parallel_105 single              s0 wrong  | total $0.11 | 30s
+[7/120] sharded-BFCL/parallel_105 single_clarify      s0 wrong  | total $0.13 | 35s
+[8/120] sharded-BFCL/parallel_107 two_agent           s0 ok     | total $0.18 | 36s
+[9/120] sharded-BFCL/parallel_105 two_agent           s0 ok     | total $0.24 | 51s
+[10/120] sharded-BFCL/parallel_199 single              s0 ok     | total $0.25 | 54s
+[11/120] sharded-BFCL/parallel_199 single_clarify      s0 ok     | total $0.26 | 56s
+[12/120] sharded-BFCL/parallel_163 single_clarify      s0 wrong  | total $0.29 | 63s
+[13/120] sharded-BFCL/parallel_0  single_clarify      s0 ok     | total $0.31 | 70s
+[14/120] sharded-BFCL/parallel_0  single              s0 wrong  | total $0.31 | 70s
+[15/120] sharded-BFCL/parallel_163 two_agent           s0 ok     | total $0.39 | 70s
+[16/120] sharded-BFCL/parallel_163 single              s0 wrong  | total $0.43 | 83s
+[17/120] sharded-BFCL/parallel_199 two_agent           s0 ok     | total $0.49 | 87s
+[18/120] sharded-BFCL/parallel_5  single              s0 ok     | total $0.50 | 89s
+[19/120] sharded-BFCL/parallel_0  two_agent           s0 ok     | total $0.55 | 90s
+[20/120] sharded-BFCL/parallel_146 single              s0 wrong  | total $0.57 | 100s
+[21/120] sharded-BFCL/parallel_5  single_clarify      s0 wrong  | total $0.59 | 103s
+[22/120] sharded-BFCL/parallel_5  two_agent           s0 ok     | total $0.66 | 105s
+[23/120] sharded-BFCL/parallel_146 single_clarify      s0 ok     | total $0.68 | 111s
+[24/120] sharded-BFCL/parallel_146 two_agent           s0 ok     | total $0.72 | 114s
+[25/120] sharded-BFCL/parallel_147 single              s0 ok     | total $0.73 | 114s
+[26/120] sharded-BFCL/parallel_147 single_clarify      s0 ok     | total $0.74 | 119s
+[27/120] sharded-BFCL/parallel_76 single_clarify      s0 ok     | total $0.75 | 119s
+[28/120] sharded-BFCL/parallel_76 single              s0 wrong  | total $0.76 | 122s
+[29/120] sharded-BFCL/parallel_147 two_agent           s0 ok     | total $0.80 | 128s
+[30/120] sharded-BFCL/parallel_70 two_agent           s0 ok     | total $0.81 | 130s
+[31/120] sharded-BFCL/parallel_70 single_clarify      s0 ok     | total $0.82 | 131s
+[32/120] sharded-BFCL/parallel_70 single              s0 ok     | total $0.84 | 134s
+[33/120] sharded-BFCL/parallel_76 two_agent           s0 ok     | total $0.87 | 135s
+[34/120] sharded-BFCL/parallel_167 single              s0 ok     | total $0.89 | 141s
+[35/120] sharded-BFCL/parallel_167 single_clarify      s0 ok     | total $0.91 | 147s
+[36/120] sharded-BFCL/parallel_142 single_clarify      s0 ok     | total $0.93 | 155s
+[37/120] sharded-BFCL/parallel_184 single_clarify      s0 ok     | total $0.94 | 161s
+[38/120] sharded-BFCL/parallel_142 single              s0 ok     | total $0.96 | 161s
+[39/120] sharded-BFCL/parallel_184 single              s0 ok     | total $0.97 | 163s
+[40/120] sharded-BFCL/parallel_184 two_agent           s0 ok     | total $0.99 | 167s
+[41/120] sharded-BFCL/parallel_142 two_agent           s0 ok     | total $1.05 | 169s
+[42/120] sharded-BFCL/parallel_167 two_agent           s0 ok     | total $1.12 | 169s
+[43/120] sharded-BFCL/parallel_30 single              s0 wrong  | total $1.12 | 180s
+[44/120] sharded-BFCL/parallel_30 single_clarify      s0 ok     | total $1.13 | 181s
+[45/120] sharded-BFCL/parallel_99 single              s0 ok     | total $1.15 | 184s
+[46/120] sharded-BFCL/parallel_99 single_clarify      s0 ok     | total $1.17 | 187s
+[47/120] sharded-BFCL/parallel_79 single_clarify      s0 ok     | total $1.18 | 189s
+[48/120] sharded-BFCL/parallel_30 two_agent           s0 ok     | total $1.21 | 189s
+[49/120] sharded-BFCL/parallel_79 single              s0 ok     | total $1.22 | 190s
+[50/120] sharded-BFCL/parallel_99 two_agent           s0 ok     | total $1.28 | 200s
+[51/120] sharded-BFCL/parallel_125 single_clarify      s0 ok     | total $1.30 | 203s
+[52/120] sharded-BFCL/parallel_79 two_agent           s0 ok     | total $1.33 | 204s
+[53/120] sharded-BFCL/parallel_125 single              s0 ok     | total $1.34 | 204s
+[54/120] sharded-BFCL/parallel_67 single_clarify      s0 ok     | total $1.34 | 211s
+[55/120] sharded-BFCL/parallel_125 two_agent           s0 ok     | total $1.37 | 211s
+[56/120] sharded-BFCL/parallel_67 two_agent           s0 ok     | total $1.40 | 217s
+[57/120] sharded-BFCL/parallel_116 single              s0 ok     | total $1.40 | 218s
+[58/120] sharded-BFCL/parallel_116 single_clarify      s0 ok     | total $1.42 | 220s
+[59/120] sharded-BFCL/parallel_116 two_agent           s0 ok     | total $1.44 | 222s
+[60/120] sharded-BFCL/parallel_56 single              s1 wrong  | total $1.46 | 233s
+[61/120] sharded-BFCL/parallel_56 single_clarify      s1 ok     | total $1.47 | 234s
+[62/120] sharded-BFCL/parallel_107 single_clarify      s1 ok     | total $1.49 | 243s
+[63/120] sharded-BFCL/parallel_56 two_agent           s1 ok     | total $1.54 | 245s
+[64/120] sharded-BFCL/parallel_107 single              s1 ok     | total $1.55 | 247s
+[65/120] sharded-BFCL/parallel_67 single              s0 wrong  | total $1.58 | 248s
+[66/120] sharded-BFCL/parallel_105 single              s1 wrong  | total $1.60 | 252s
+[67/120] sharded-BFCL/parallel_105 single_clarify      s1 wrong  | total $1.61 | 263s
+[68/120] sharded-BFCL/parallel_107 two_agent           s1 ok     | total $1.66 | 265s
+[69/120] sharded-BFCL/parallel_163 single              s1 ok     | total $1.68 | 269s
+[70/120] sharded-BFCL/parallel_105 two_agent           s1 wrong  | total $1.73 | 278s
+[71/120] sharded-BFCL/parallel_199 single              s1 ok     | total $1.74 | 279s
+[72/120] sharded-BFCL/parallel_0  single_clarify      s1 ok     | total $1.75 | 283s
+[73/120] sharded-BFCL/parallel_199 single_clarify      s1 ok     | total $1.76 | 284s
+[74/120] sharded-BFCL/parallel_0  single              s1 wrong  | total $1.77 | 296s
+[75/120] sharded-BFCL/parallel_0  two_agent           s1 ok     | total $1.79 | 299s
+[76/120] sharded-BFCL/parallel_163 two_agent           s1 ok     | total $1.88 | 300s
+[77/120] sharded-BFCL/parallel_163 single_clarify      s1 wrong  | total $1.92 | 301s
+[78/120] sharded-BFCL/parallel_199 two_agent           s1 ok     | total $1.98 | 301s
+[79/120] sharded-BFCL/parallel_5  single              s1 wrong  | total $2.00 | 309s
+[80/120] sharded-BFCL/parallel_146 single              s1 wrong  | total $2.02 | 319s
+[81/120] sharded-BFCL/parallel_5  single_clarify      s1 ok     | total $2.04 | 321s
+[82/120] sharded-BFCL/parallel_146 single_clarify      s1 ok     | total $2.06 | 323s
+[83/120] sharded-BFCL/parallel_147 single              s1 ok     | total $2.07 | 325s
+[84/120] sharded-BFCL/parallel_146 two_agent           s1 ok     | total $2.12 | 331s
+[85/120] sharded-BFCL/parallel_76 single              s1 ok     | total $2.12 | 332s
+[86/120] sharded-BFCL/parallel_147 single_clarify      s1 ok     | total $2.13 | 334s
+[87/120] sharded-BFCL/parallel_76 single_clarify      s1 ok     | total $2.15 | 336s
+[88/120] sharded-BFCL/parallel_147 two_agent           s1 ok     | total $2.19 | 346s
+[89/120] sharded-BFCL/parallel_70 single_clarify      s1 ok     | total $2.20 | 347s
+[90/120] sharded-BFCL/parallel_70 single              s1 wrong  | total $2.21 | 350s
+[91/120] sharded-BFCL/parallel_76 two_agent           s1 ok     | total $2.25 | 354s
+[92/120] sharded-BFCL/parallel_70 two_agent           s1 ok     | total $2.29 | 360s
+[93/120] sharded-BFCL/parallel_167 single              s1 ok     | total $2.30 | 365s
+[94/120] sharded-BFCL/parallel_167 single_clarify      s1 ok     | total $2.32 | 366s
+[95/120] sharded-BFCL/parallel_5  two_agent           s1 ok     | total $2.48 | 371s
+[96/120] sharded-BFCL/parallel_142 single              s1 ok     | total $2.50 | 376s
+[97/120] sharded-BFCL/parallel_142 single_clarify      s1 ok     | total $2.51 | 379s
+[98/120] sharded-BFCL/parallel_184 single_clarify      s1 ok     | total $2.52 | 383s
+[99/120] sharded-BFCL/parallel_167 two_agent           s1 ok     | total $2.58 | 385s
+[100/120] sharded-BFCL/parallel_184 two_agent           s1 ok     | total $2.61 | 390s
+[101/120] sharded-BFCL/parallel_99 single              s1 ok     | total $2.62 | 397s
+[102/120] sharded-BFCL/parallel_99 two_agent           s1 ok     | total $2.65 | 400s
+[103/120] sharded-BFCL/parallel_30 single              s1 wrong  | total $2.66 | 402s
+[104/120] sharded-BFCL/parallel_99 single_clarify      s1 ok     | total $2.67 | 403s
+[105/120] sharded-BFCL/parallel_30 single_clarify      s1 wrong  | total $2.68 | 406s
+[106/120] sharded-BFCL/parallel_142 two_agent           s1 wrong  | total $2.77 | 411s
+[107/120] sharded-BFCL/parallel_79 single              s1 ok     | total $2.77 | 412s
+[108/120] sharded-BFCL/parallel_79 single_clarify      s1 ok     | total $2.78 | 413s
+[109/120] sharded-BFCL/parallel_30 two_agent           s1 ok     | total $2.81 | 418s
+[110/120] sharded-BFCL/parallel_79 two_agent           s1 ok     | total $2.84 | 426s
+[111/120] sharded-BFCL/parallel_184 single              s1 wrong  | total $2.88 | 428s
+[112/120] sharded-BFCL/parallel_125 single              s1 ok     | total $2.89 | 428s
+[113/120] sharded-BFCL/parallel_125 single_clarify      s1 ok     | total $2.90 | 430s
+[114/120] sharded-BFCL/parallel_67 single_clarify      s1 ok     | total $2.91 | 434s
+[115/120] sharded-BFCL/parallel_125 two_agent           s1 ok     | total $2.95 | 438s
+[116/120] sharded-BFCL/parallel_67 single              s1 ok     | total $2.96 | 439s
+[117/120] sharded-BFCL/parallel_67 two_agent           s1 ok     | total $2.98 | 442s
+[118/120] sharded-BFCL/parallel_116 single              s1 ok     | total $2.99 | 442s
+[119/120] sharded-BFCL/parallel_116 single_clarify      s1 ok     | total $3.00 | 443s
+[120/120] sharded-BFCL/parallel_116 two_agent           s1 ok     | total $3.02 | 448s
+
+# Results: actions_arch_sonnet
+
+120 completed episodes, 0 errored.
+
+## Accuracy of the final answer
+
+| condition | n | accuracy | 95% CI | Δ vs single (paired) | 95% CI | wins/losses |
+|---|---|---|---|---|---|---|
+| single | 40 | 60.0% | [45.0%, 75.0%] | baseline | |  |
+| single_clarify | 40 | 82.5% | [70.0%, 92.5%] | +22.5 pts | [+5.0, +40.0] | 11/2 |
+| two_agent | 40 | 95.0% | [87.5%, 100.0%] | +35.0 pts | [+17.5, +52.5] | 15/1 |
+
+## By domain (accuracy)
+
+| domain | single | single_clarify | two_agent |
+|---|---|---|---|
+| lic_actions | 60.0% | 82.5% | 95.0% |
+
+## Behavior and cost
+
+| metric | single | single_clarify | two_agent |
+|---|---|---|---|
+| Aptitude (P90 score per task) | 72.0% | 88.5% | 99.0% |
+| Unreliability (P90 - P10) | 24.0% | 12.0% | 8.0% |
+| Accuracy on tasks with a revision | n/a | n/a | n/a |
+| Imported actions: strict (last message has every call) | 60.0% | 82.5% | 95.0% |
+| Imported actions: every call issued in some turn | 97.5% | 97.5% | 97.5% |
+| First-attempt accuracy | 0.0% | 17.5% | 20.0% |
+| Correct at some point | 60.0% | 82.5% | 95.0% |
+| Correct earlier, wrong at the end | 0.0% | 0.0% | 0.0% |
+| Never answered | 0.0% | 0.0% | 0.0% |
+| Answer attempts / episode | 3.75 | 2.92 | 2.88 |
+| Premature attempts / episode | 3.15 | 2.45 | 2.40 |
+| Share of shards known at first attempt | 41.0% | 48.7% | 46.2% |
+| Assistant turns / episode | 6.28 | 5.15 | 4.88 |
+| Question-only turns / episode | 2.52 | 2.23 | 2.00 |
+| Agent output tokens / episode | 437.45 | 513.35 | 1836.22 |
+| Agent cost / episode | $0.0130 | $0.0139 | $0.0462 |
+| Agent cost / correct answer | $0.0216 | $0.0168 | $0.0486 |
+| User-simulator cost / episode | $0.0010 | $0.0008 | $0.0007 |
+| Refusals | 0.00 | 0.00 | 0.00 |
+

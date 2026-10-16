@@ -1,0 +1,163 @@
+0 episodes already done, 120 to run -> results/calib_sonnet/episodes.jsonl
+[1/120] sharded-GSM8K/728        full                s0 ok     | total $0.00 | 2s
+[2/120] sharded-BFCL/parallel_56 full                s0 ok     | total $0.00 | 2s
+[3/120] sharded-livecodebench/2819 full                s0 ok     | total $0.01 | 3s
+[4/120] sharded-BFCL/parallel_107 full                s0 ok     | total $0.01 | 4s
+[5/120] sharded-livecodebench/2727 full                s0 ok     | total $0.01 | 5s
+[6/120] sharded-livecodebench/2819 single              s0 ok     | total $0.02 | 5s
+[7/120] sharded-livecodebench/2727 single              s0 ok     | total $0.02 | 6s
+[8/120] sharded-GSM8K/44         full                s0 ok     | total $0.02 | 6s
+[9/120] sharded-BFCL/parallel_105 full                s0 wrong  | total $0.02 | 8s
+[10/120] sharded-livecodebench/2867 full                s0 ok     | total $0.03 | 12s
+[11/120] sharded-BFCL/parallel_56 single              s0 wrong  | total $0.04 | 13s
+[12/120] sharded-GSM8K/283        full                s0 ok     | total $0.04 | 15s
+[13/120] sharded-livecodebench/2867 single              s0 ok     | total $0.04 | 15s
+[14/120] sharded-GSM8K/728        single              s0 ok     | total $0.06 | 16s
+[15/120] sharded-BFCL/parallel_163 full                s0 ok     | total $0.06 | 17s
+[16/120] sharded-HumanEval/5      full                s0 ok     | total $0.06 | 19s
+[17/120] sharded-HumanEval/5      single              s0 ok     | total $0.07 | 21s
+[18/120] sharded-GSM8K/927        full                s0 ok     | total $0.07 | 23s
+[19/120] sharded-BFCL/parallel_105 single              s0 wrong  | total $0.08 | 25s
+[20/120] sharded-BFCL/parallel_199 full                s0 ok     | total $0.08 | 27s
+[21/120] sharded-GSM8K/44         single              s0 ok     | total $0.11 | 28s
+[22/120] sharded-BFCL/parallel_107 single              s0 ok     | total $0.12 | 29s
+[23/120] sharded-livecodebench/2831 full                s0 ok     | total $0.13 | 31s
+[24/120] sharded-livecodebench/2831 single              s0 ok     | total $0.13 | 32s
+[25/120] sharded-GSM8K/427        full                s0 ok     | total $0.13 | 34s
+[26/120] sharded-BFCL/parallel_0  full                s0 ok     | total $0.13 | 35s
+[27/120] sharded-BFCL/parallel_163 single              s0 ok     | total $0.15 | 40s
+[28/120] sharded-HumanEval/153    full                s0 ok     | total $0.15 | 42s
+[29/120] sharded-BFCL/parallel_199 single              s0 wrong  | total $0.16 | 46s
+[30/120] sharded-HumanEval/153    single              s0 ok     | total $0.16 | 46s
+[31/120] sharded-GSM8K/751        full                s0 ok     | total $0.16 | 47s
+[32/120] sharded-GSM8K/283        single              s0 ok     | total $0.20 | 49s
+[33/120] sharded-BFCL/parallel_5  full                s0 ok     | total $0.20 | 50s
+[34/120] sharded-BFCL/parallel_0  single              s0 ok     | total $0.21 | 51s
+[35/120] sharded-HumanEval/8      full                s0 ok     | total $0.21 | 52s
+[36/120] sharded-HumanEval/8      single              s0 ok     | total $0.22 | 53s
+[37/120] sharded-GSM8K/420        full                s0 ok     | total $0.22 | 54s
+[38/120] sharded-GSM8K/927        single              s0 ok     | total $0.25 | 54s
+[39/120] sharded-BFCL/parallel_146 full                s0 ok     | total $0.25 | 57s
+[40/120] sharded-livecodebench/2977 full                s0 ok     | total $0.26 | 58s
+[41/120] sharded-livecodebench/2977 single              s0 ok     | total $0.26 | 62s
+[42/120] sharded-GSM8K/740        full                s0 ok     | total $0.26 | 64s
+[43/120] sharded-GSM8K/427        single              s0 ok     | total $0.29 | 66s
+[44/120] sharded-BFCL/parallel_5  single              s0 wrong  | total $0.31 | 67s
+[45/120] sharded-GSM8K/751        single              s0 ok     | total $0.32 | 68s
+[46/120] sharded-BFCL/parallel_147 full                s0 ok     | total $0.32 | 68s
+[47/120] sharded-HumanEval/137    full                s0 ok     | total $0.33 | 70s
+[48/120] sharded-BFCL/parallel_146 single              s0 wrong  | total $0.34 | 71s
+[49/120] sharded-GSM8K/547        full                s0 ok     | total $0.34 | 72s
+[50/120] sharded-GSM8K/420        single              s0 ok     | total $0.36 | 72s
+[51/120] sharded-BFCL/parallel_76 full                s0 ok     | total $0.36 | 74s
+[52/120] sharded-livecodebench/2876 full                s0 wrong  | total $0.36 | 76s
+[53/120] sharded-livecodebench/2876 single              s0 ok     | total $0.36 | 79s
+[54/120] sharded-GSM8K/968        full                s0 ok     | total $0.37 | 81s
+[55/120] sharded-BFCL/parallel_147 single              s0 ok     | total $0.38 | 82s
+[56/120] sharded-BFCL/parallel_76 single              s0 wrong  | total $0.38 | 83s
+[57/120] sharded-BFCL/parallel_56 full                s1 ok     | total $0.38 | 84s
+[58/120] sharded-livecodebench/2819 full                s1 ok     | total $0.39 | 87s
+[59/120] sharded-GSM8K/547        single              s0 ok     | total $0.40 | 87s
+[60/120] sharded-GSM8K/728        full                s1 ok     | total $0.41 | 89s
+[61/120] sharded-HumanEval/137    single              s0 ok     | total $0.43 | 89s
+[62/120] sharded-BFCL/parallel_107 full                s1 ok     | total $0.43 | 91s
+[63/120] sharded-livecodebench/2819 single              s1 ok     | total $0.44 | 92s
+[64/120] sharded-livecodebench/2727 full                s1 ok     | total $0.44 | 95s
+[65/120] sharded-BFCL/parallel_56 single              s1 wrong  | total $0.45 | 96s
+[66/120] sharded-GSM8K/740        single              s0 ok     | total $0.48 | 97s
+[67/120] sharded-GSM8K/44         full                s1 ok     | total $0.48 | 98s
+[68/120] sharded-livecodebench/2727 single              s1 ok     | total $0.48 | 98s
+[69/120] sharded-BFCL/parallel_105 full                s1 ok     | total $0.49 | 102s
+[70/120] sharded-livecodebench/2867 full                s1 ok     | total $0.49 | 105s
+[71/120] sharded-livecodebench/2867 single              s1 ok     | total $0.49 | 108s
+[72/120] sharded-GSM8K/283        full                s1 ok     | total $0.50 | 110s
+[73/120] sharded-GSM8K/728        single              s1 ok     | total $0.51 | 111s
+[74/120] sharded-GSM8K/968        single              s0 ok     | total $0.55 | 112s
+[75/120] sharded-BFCL/parallel_163 full                s1 ok     | total $0.55 | 112s
+[76/120] sharded-HumanEval/5      full                s1 ok     | total $0.55 | 114s
+[77/120] sharded-HumanEval/5      single              s1 ok     | total $0.56 | 117s
+[78/120] sharded-GSM8K/927        full                s1 ok     | total $0.56 | 119s
+[79/120] sharded-GSM8K/44         single              s1 ok     | total $0.58 | 119s
+[80/120] sharded-BFCL/parallel_105 single              s1 wrong  | total $0.60 | 120s
+[81/120] sharded-BFCL/parallel_199 full                s1 ok     | total $0.60 | 121s
+[82/120] sharded-livecodebench/2831 full                s1 ok     | total $0.60 | 124s
+[83/120] sharded-BFCL/parallel_107 single              s1 wrong  | total $0.62 | 124s
+[84/120] sharded-GSM8K/427        full                s1 ok     | total $0.62 | 126s
+[85/120] sharded-livecodebench/2831 single              s1 ok     | total $0.62 | 128s
+[86/120] sharded-BFCL/parallel_0  full                s1 ok     | total $0.62 | 130s
+[87/120] sharded-BFCL/parallel_199 single              s1 ok     | total $0.64 | 136s
+[88/120] sharded-BFCL/parallel_163 single              s1 wrong  | total $0.65 | 138s
+[89/120] sharded-HumanEval/153    full                s1 ok     | total $0.65 | 138s
+[90/120] sharded-GSM8K/751        full                s1 ok     | total $0.66 | 140s
+[91/120] sharded-HumanEval/153    single              s1 ok     | total $0.66 | 141s
+[92/120] sharded-GSM8K/927        single              s1 ok     | total $0.68 | 142s
+[93/120] sharded-GSM8K/283        single              s1 ok     | total $0.72 | 143s
+[94/120] sharded-BFCL/parallel_5  full                s1 ok     | total $0.72 | 144s
+[95/120] sharded-HumanEval/8      full                s1 ok     | total $0.72 | 145s
+[96/120] sharded-HumanEval/8      single              s1 ok     | total $0.73 | 146s
+[97/120] sharded-GSM8K/420        full                s1 ok     | total $0.73 | 149s
+[98/120] sharded-BFCL/parallel_146 full                s1 ok     | total $0.73 | 150s
+[99/120] sharded-GSM8K/427        single              s1 ok     | total $0.76 | 158s
+[100/120] sharded-livecodebench/2977 full                s1 ok     | total $0.76 | 160s
+[101/120] sharded-BFCL/parallel_5  single              s1 wrong  | total $0.77 | 160s
+[102/120] sharded-GSM8K/740        full                s1 ok     | total $0.77 | 162s
+[103/120] sharded-GSM8K/751        single              s1 ok     | total $0.79 | 162s
+[104/120] sharded-BFCL/parallel_147 full                s1 ok     | total $0.79 | 164s
+[105/120] sharded-GSM8K/420        single              s1 ok     | total $0.81 | 164s
+[106/120] sharded-livecodebench/2977 single              s1 ok     | total $0.81 | 164s
+[107/120] sharded-BFCL/parallel_0  single              s1 wrong  | total $0.82 | 165s
+[108/120] sharded-HumanEval/137    full                s1 ok     | total $0.82 | 166s
+[109/120] sharded-GSM8K/547        full                s1 ok     | total $0.83 | 167s
+[110/120] sharded-BFCL/parallel_76 full                s1 ok     | total $0.83 | 168s
+[111/120] sharded-BFCL/parallel_146 single              s1 wrong  | total $0.84 | 171s
+[112/120] sharded-livecodebench/2876 full                s1 ok     | total $0.84 | 173s
+[113/120] sharded-BFCL/parallel_76 single              s1 wrong  | total $0.85 | 178s
+[114/120] sharded-HumanEval/137    single              s1 ok     | total $0.86 | 179s
+[115/120] sharded-GSM8K/968        full                s1 ok     | total $0.87 | 180s
+[116/120] sharded-livecodebench/2876 single              s1 ok     | total $0.87 | 183s
+[117/120] sharded-GSM8K/547        single              s1 ok     | total $0.89 | 184s
+[118/120] sharded-BFCL/parallel_147 single              s1 ok     | total $0.89 | 201s
+[119/120] sharded-GSM8K/740        single              s1 ok     | total $0.91 | 201s
+[120/120] sharded-GSM8K/968        single              s1 ok     | total $0.97 | 226s
+
+# Results: calib_sonnet
+
+120 completed episodes, 0 errored.
+
+## Accuracy of the final answer
+
+| condition | n | accuracy | 95% CI | Δ vs single (paired) | 95% CI | wins/losses |
+|---|---|---|---|---|---|---|
+| full | 60 | 96.7% | [91.7%, 100.0%] | +20.0 pts | [+8.3, +31.7] | 13/1 |
+| single | 60 | 76.7% | [66.7%, 86.7%] | baseline | |  |
+
+## By domain (accuracy)
+
+| domain | full | single |
+|---|---|---|
+| lic_actions | 95.0% | 30.0% |
+| lic_code | 95.0% | 100.0% |
+| lic_math | 100.0% | 100.0% |
+
+## Behavior and cost
+
+| metric | full | single |
+|---|---|---|
+| Aptitude (P90 score per task) | 99.3% | 82.0% |
+| Unreliability (P90 - P10) | 5.3% | 10.7% |
+| Accuracy on tasks with a revision | n/a | n/a |
+| First-attempt accuracy | 96.7% | 50.0% |
+| Correct at some point | 96.7% | 76.7% |
+| Correct earlier, wrong at the end | 0.0% | 0.0% |
+| Never answered | 0.0% | 0.0% |
+| Answer attempts / episode | 1.00 | 2.25 |
+| Premature attempts / episode | 0.00 | 1.78 |
+| Share of shards known at first attempt | 100.0% | 46.3% |
+| Assistant turns / episode | 1.00 | 4.13 |
+| Question-only turns / episode | 0.00 | 1.88 |
+| Agent output tokens / episode | 138.28 | 772.52 |
+| Agent cost / episode | $0.0022 | $0.0132 |
+| Agent cost / correct answer | $0.0023 | $0.0173 |
+| User-simulator cost / episode | $0.0000 | $0.0007 |
+| Refusals | 0.00 | 0.00 |
+

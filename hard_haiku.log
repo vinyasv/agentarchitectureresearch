@@ -1,0 +1,169 @@
+0 episodes already done, 120 to run -> results/hard_haiku/episodes.jsonl
+[1/120] sql_top_customers        full                s0 ok     | total $0.00 | 3s
+[2/120] code_parse_duration      full                s0 ok     | total $0.00 | 13s
+[3/120] sql_top_customers        single              s0 wrong  | total $0.01 | 34s
+[4/120] sql_top_customers        single_clarify      s0 ok     | total $0.01 | 47s
+[5/120] code_parse_duration      single              s0 ok     | total $0.02 | 55s
+[6/120] action_meeting           full                s0 ok     | total $0.02 | 57s
+[7/120] code_parse_duration      single_clarify      s0 ok     | total $0.04 | 61s
+[8/120] action_meeting           single              s0 ok     | total $0.04 | 97s
+[9/120] sql_top_customers        two_agent_verbatim  s0 ok     | total $0.05 | 107s
+[10/120] sql_top_customers        two_agent           s0 ok     | total $0.07 | 108s
+[11/120] action_meeting           single_clarify      s0 ok     | total $0.07 | 108s
+[12/120] math_catering            full                s0 ok     | total $0.07 | 111s
+[13/120] code_parse_duration      two_agent           s0 wrong  | total $0.10 | 129s
+[14/120] math_catering            single_clarify      s0 ok     | total $0.10 | 143s
+[15/120] math_catering            single              s0 ok     | total $0.11 | 145s
+[16/120] code_normalize_phone     full                s0 ok     | total $0.11 | 155s
+[17/120] action_meeting           two_agent           s0 ok     | total $0.13 | 165s
+[18/120] action_meeting           two_agent_verbatim  s0 ok     | total $0.14 | 169s
+[19/120] code_parse_duration      two_agent_verbatim  s0 ok     | total $0.18 | 177s
+[20/120] math_catering            two_agent           s0 ok     | total $0.19 | 185s
+[21/120] sql_monthly_eu_orders    full                s0 ok     | total $0.19 | 188s
+[22/120] math_catering            two_agent_verbatim  s0 wrong  | total $0.20 | 201s
+[23/120] code_normalize_phone     single              s0 ok     | total $0.21 | 212s
+[24/120] code_normalize_phone     single_clarify      s0 ok     | total $0.22 | 214s
+[25/120] sql_monthly_eu_orders    single              s0 wrong  | total $0.22 | 222s
+[26/120] action_flights           full                s0 ok     | total $0.22 | 223s
+[27/120] sql_monthly_eu_orders    single_clarify      s0 wrong  | total $0.23 | 242s
+[28/120] action_flights           single              s0 ok     | total $0.23 | 248s
+[29/120] code_normalize_phone     two_agent           s0 ok     | total $0.25 | 270s
+[30/120] action_flights           single_clarify      s0 ok     | total $0.26 | 272s
+[31/120] math_paint               full                s0 ok     | total $0.26 | 274s
+[32/120] sql_monthly_eu_orders    two_agent           s0 ok     | total $0.27 | 286s
+[33/120] code_normalize_phone     two_agent_verbatim  s0 ok     | total $0.29 | 293s
+[34/120] sql_monthly_eu_orders    two_agent_verbatim  s0 ok     | total $0.30 | 295s
+[35/120] action_flights           two_agent           s0 ok     | total $0.31 | 302s
+[36/120] code_merge_intervals     full                s0 ok     | total $0.32 | 307s
+[37/120] action_flights           two_agent_verbatim  s0 ok     | total $0.33 | 318s
+[38/120] math_paint               single              s0 ok     | total $0.33 | 318s
+[39/120] math_paint               single_clarify      s0 ok     | total $0.34 | 324s
+[40/120] code_merge_intervals     single              s0 ok     | total $0.34 | 345s
+[41/120] sql_unsold_electronics   full                s0 ok     | total $0.34 | 349s
+[42/120] math_paint               two_agent           s0 ok     | total $0.36 | 362s
+[43/120] code_merge_intervals     single_clarify      s0 ok     | total $0.36 | 364s
+[44/120] math_paint               two_agent_verbatim  s0 ok     | total $0.38 | 370s
+[45/120] sql_unsold_electronics   single              s0 ok     | total $0.38 | 372s
+[46/120] action_restaurant        full                s0 wrong  | total $0.38 | 373s
+[47/120] code_merge_intervals     two_agent           s0 ok     | total $0.39 | 375s
+[48/120] code_merge_intervals     two_agent_verbatim  s0 ok     | total $0.40 | 399s
+[49/120] sql_unsold_electronics   single_clarify      s0 ok     | total $0.41 | 401s
+[50/120] action_restaurant        single              s0 wrong  | total $0.41 | 402s
+[51/120] action_restaurant        single_clarify      s0 wrong  | total $0.42 | 404s
+[52/120] sql_unsold_electronics   two_agent           s0 ok     | total $0.42 | 405s
+[53/120] math_commute             full                s0 ok     | total $0.42 | 406s
+[54/120] sql_unsold_electronics   two_agent_verbatim  s0 ok     | total $0.43 | 415s
+[55/120] math_commute             single_clarify      s0 wrong  | total $0.44 | 443s
+[56/120] code_top_words           full                s0 ok     | total $0.44 | 449s
+[57/120] action_restaurant        two_agent_verbatim  s0 wrong  | total $0.45 | 454s
+[58/120] math_commute             single              s0 wrong  | total $0.46 | 454s
+[59/120] action_restaurant        two_agent           s0 wrong  | total $0.47 | 459s
+[60/120] math_commute             two_agent           s0 wrong  | total $0.48 | 476s
+[61/120] sql_repeat_customers     full                s0 ok     | total $0.48 | 478s
+[62/120] code_top_words           single_clarify      s0 ok     | total $0.49 | 500s
+[63/120] code_top_words           single              s0 ok     | total $0.50 | 502s
+[64/120] math_commute             two_agent_verbatim  s0 wrong  | total $0.52 | 504s
+[65/120] sql_repeat_customers     single              s0 ok     | total $0.52 | 513s
+[66/120] action_ticket            full                s0 ok     | total $0.52 | 515s
+[67/120] sql_repeat_customers     single_clarify      s0 wrong  | total $0.53 | 534s
+[68/120] code_top_words           two_agent_verbatim  s0 ok     | total $0.54 | 542s
+[69/120] code_top_words           two_agent           s0 ok     | total $0.56 | 544s
+[70/120] action_ticket            single              s0 wrong  | total $0.56 | 556s
+[71/120] math_pizza               full                s0 ok     | total $0.56 | 558s
+[72/120] sql_repeat_customers     two_agent_verbatim  s0 wrong  | total $0.58 | 572s
+[73/120] action_ticket            single_clarify      s0 ok     | total $0.58 | 572s
+[74/120] sql_repeat_customers     two_agent           s0 wrong  | total $0.60 | 573s
+[75/120] math_pizza               single              s0 ok     | total $0.60 | 592s
+[76/120] action_ticket            two_agent_verbatim  s0 ok     | total $0.61 | 594s
+[77/120] code_rolling_mean        full                s0 ok     | total $0.61 | 595s
+[78/120] math_pizza               single_clarify      s0 ok     | total $0.62 | 609s
+[79/120] action_ticket            two_agent           s0 ok     | total $0.63 | 620s
+[80/120] math_pizza               two_agent           s0 ok     | total $0.65 | 639s
+[81/120] sql_category_share       full                s0 ok     | total $0.65 | 643s
+[82/120] math_pizza               two_agent_verbatim  s0 ok     | total $0.66 | 651s
+[83/120] code_rolling_mean        single_clarify      s0 ok     | total $0.67 | 654s
+[84/120] code_rolling_mean        single              s0 ok     | total $0.68 | 654s
+[85/120] sql_category_share       single              s0 wrong  | total $0.69 | 679s
+[86/120] action_thermostat        full                s0 ok     | total $0.69 | 681s
+[87/120] sql_category_share       single_clarify      s0 wrong  | total $0.70 | 684s
+[88/120] code_rolling_mean        two_agent_verbatim  s0 ok     | total $0.71 | 692s
+[89/120] code_rolling_mean        two_agent           s0 ok     | total $0.73 | 697s
+[90/120] action_thermostat        single              s0 ok     | total $0.73 | 713s
+[91/120] action_thermostat        single_clarify      s0 ok     | total $0.74 | 714s
+[92/120] math_down_payment        full                s0 ok     | total $0.74 | 717s
+[93/120] sql_category_share       two_agent           s0 wrong  | total $0.75 | 728s
+[94/120] sql_category_share       two_agent_verbatim  s0 wrong  | total $0.76 | 728s
+[95/120] action_thermostat        two_agent_verbatim  s0 ok     | total $0.77 | 737s
+[96/120] action_thermostat        two_agent           s0 ok     | total $0.78 | 739s
+[97/120] code_slugify             full                s0 ok     | total $0.78 | 745s
+[98/120] math_down_payment        single_clarify      s0 ok     | total $0.78 | 749s
+[99/120] math_down_payment        single              s0 wrong  | total $0.79 | 766s
+[100/120] math_down_payment        two_agent           s0 ok     | total $0.80 | 791s
+[101/120] math_down_payment        two_agent_verbatim  s0 ok     | total $0.81 | 793s
+[102/120] sql_avg_order_value      full                s0 ok     | total $0.81 | 795s
+[103/120] code_slugify             single_clarify      s0 ok     | total $0.83 | 805s
+[104/120] code_slugify             single              s0 ok     | total $0.84 | 816s
+[105/120] sql_avg_order_value      single              s0 wrong  | total $0.85 | 828s
+[106/120] sql_avg_order_value      single_clarify      s0 wrong  | total $0.85 | 829s
+[107/120] action_rental_car        full                s0 ok     | total $0.85 | 829s
+[108/120] action_rental_car        single_clarify      s0 ok     | total $0.86 | 860s
+[109/120] action_rental_car        single              s0 ok     | total $0.86 | 861s
+[110/120] code_slugify             two_agent           s0 ok     | total $0.89 | 866s
+[111/120] math_road_trip           full                s0 ok     | total $0.89 | 870s
+[112/120] sql_avg_order_value      two_agent           s0 ok     | total $0.90 | 874s
+[113/120] code_slugify             two_agent_verbatim  s0 ok     | total $0.92 | 887s
+[114/120] sql_avg_order_value      two_agent_verbatim  s0 wrong  | total $0.94 | 889s
+[115/120] math_road_trip           single_clarify      s0 wrong  | total $0.94 | 906s
+[116/120] math_road_trip           single              s0 ok     | total $0.95 | 915s
+[117/120] action_rental_car        two_agent           s0 ok     | total $0.96 | 923s
+[118/120] action_rental_car        two_agent_verbatim  s0 ok     | total $0.97 | 924s
+[119/120] math_road_trip           two_agent           s0 ok     | total $0.98 | 958s
+[120/120] math_road_trip           two_agent_verbatim  s0 ok     | total $1.00 | 968s
+
+# Results: hard_haiku
+
+120 completed episodes, 0 errored.
+
+## Accuracy of the final answer
+
+| condition | n | accuracy | 95% CI | Δ vs single (paired) | 95% CI | wins/losses |
+|---|---|---|---|---|---|---|
+| full | 24 | 95.8% | [87.5%, 100.0%] | +29.2 pts | [+12.5, +45.8] | 7/0 |
+| single | 24 | 66.7% | [45.8%, 83.3%] | baseline | |  |
+| single_clarify | 24 | 70.8% | [54.2%, 87.5%] | +4.2 pts | [-12.5, +20.8] | 3/2 |
+| two_agent | 24 | 79.2% | [62.5%, 95.8%] | +12.5 pts | [-8.3, +33.3] | 5/2 |
+| two_agent_verbatim | 24 | 75.0% | [58.3%, 91.7%] | +8.3 pts | [-12.5, +29.2] | 4/2 |
+
+## By domain (accuracy)
+
+| domain | full | single | single_clarify | two_agent | two_agent_verbatim |
+|---|---|---|---|---|---|
+| action | 83.3% | 66.7% | 83.3% | 83.3% | 83.3% |
+| code | 100.0% | 100.0% | 100.0% | 83.3% | 100.0% |
+| math | 100.0% | 66.7% | 66.7% | 83.3% | 66.7% |
+| sql | 100.0% | 33.3% | 33.3% | 66.7% | 50.0% |
+
+## Behavior and cost
+
+| metric | full | single | single_clarify | two_agent | two_agent_verbatim |
+|---|---|---|---|---|---|
+| Aptitude (P90 score per task) | 99.4% | 73.2% | 74.4% | 86.7% | 78.6% |
+| Unreliability (P90 - P10) | 0.0% | 0.0% | 0.0% | 0.0% | 0.0% |
+| Accuracy on tasks with a revision | 95.8% | 66.7% | 70.8% | 79.2% | 75.0% |
+| Imported actions: strict (last message has every call) | n/a | n/a | n/a | n/a | n/a |
+| Imported actions: every call issued in some turn | n/a | n/a | n/a | n/a | n/a |
+| First-attempt accuracy | 95.8% | 4.2% | 4.2% | 4.2% | 4.2% |
+| Correct at some point | 95.8% | 79.2% | 83.3% | 83.3% | 79.2% |
+| Correct earlier, wrong at the end | 0.0% | 12.5% | 12.5% | 4.2% | 4.2% |
+| Never answered | 0.0% | 0.0% | 0.0% | 0.0% | 0.0% |
+| Answer attempts / episode | 1.00 | 7.29 | 6.62 | 7.42 | 7.12 |
+| Premature attempts / episode | 0.00 | 6.33 | 5.67 | 6.42 | 6.12 |
+| Share of shards known at first attempt | 100.0% | 18.6% | 27.6% | 26.6% | 29.1% |
+| Assistant turns / episode | 1.00 | 9.62 | 9.21 | 9.33 | 9.21 |
+| Question-only turns / episode | 0.00 | 2.33 | 2.58 | 1.92 | 2.08 |
+| Agent output tokens / episode | 747.21 | 3935.71 | 3452.83 | 10734.12 | 11244.08 |
+| Agent cost / episode | $0.0005 | $0.0045 | $0.0041 | $0.0109 | $0.0115 |
+| Agent cost / correct answer | $0.0005 | $0.0068 | $0.0058 | $0.0138 | $0.0153 |
+| User-simulator cost / episode | $0.0000 | $0.0027 | $0.0024 | $0.0024 | $0.0026 |
+| Refusals | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 |
+
